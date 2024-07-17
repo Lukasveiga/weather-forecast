@@ -46,8 +46,8 @@ Request:
 - Base URL: https://api.open-meteo.com/v1/forecast
 - Method: GET
 - Query Parameters:
-  - lat (Double): The latitude coordinate.
-  - lon (Double): The longitude coordinate.
+  - latitude (Double): The latitude coordinate.
+  - longitude (Double): The longitude coordinate.
   - current: A list of weather variables to get current conditions.
   - forecast_days: Per default, only 7 days are returned. Up to 16 days of forecast are possible.
 - And others. See documentation: https://open-meteo.com/en/docs
