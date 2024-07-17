@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Weather Forecast
+
+url:
+  location: 'https://cep.awesomeapi.com.br/json'
+  weather-forecast: 'https://api.open-meteo.com/v1'
+
+forecast-config:
+  current: 'temperature_2m,relative_humidity_2m,wind_speed_10m'
+  hourly: 'temperature_2m'
+  timezone: 'auto'
