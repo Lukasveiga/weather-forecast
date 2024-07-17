@@ -13,6 +13,9 @@
     <a alt="OpenFeign">
         <img src="https://img.shields.io/badge/OpenFeign-v4.1.3-purple.svg" />
     </a>
+    <a alt="Redis">
+        <img src="https://img.shields.io/badge/Redis-v7.2.5-red.svg" />
+    </a>
 </p>
 
 ### Overview
