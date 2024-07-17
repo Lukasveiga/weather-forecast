@@ -2,6 +2,9 @@ spring:
   application:
     name: Weather Forecast
 
+  cache:
+    type: redis
+
 url:
   location: 'https://cep.awesomeapi.com.br/json'
   weather-forecast: 'https://api.open-meteo.com/v1'
