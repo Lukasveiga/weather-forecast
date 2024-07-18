@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "location", url = "${url.location}")
 public interface LocationFeignClient {
 
-    @GetMapping(value = "/{cep}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/{cep}", produces = MediaType.APPLICATION_JSON_VALUE)
     LocationData getLocationData(@PathVariable("cep") String cep);
 }
 

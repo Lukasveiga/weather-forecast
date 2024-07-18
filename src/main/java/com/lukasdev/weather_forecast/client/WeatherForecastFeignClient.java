@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "weatherForecast", url = "${url.weather-forecast}", configuration = FeignConfig.class)
 public interface WeatherForecastFeignClient {
 
-    @GetMapping(value = "/forecast", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/forecast", produces = MediaType.APPLICATION_JSON_VALUE)
     WeatherData getWeatherData(
             @RequestParam(name = "current") String current,
             @RequestParam(name = "hourly") String hourly,
